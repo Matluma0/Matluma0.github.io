@@ -201,3 +201,98 @@ a[href^="mailto"]:hover {
 html {
     scroll-behavior: smooth;
 }
+@media (max-width: 768px) {
+
+    /* Navbar */
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        padding: 10px;
+    }
+
+    nav img {
+        width: 100%;
+        height: 35px;
+        object-fit: contain;
+    }
+
+    nav a {
+        font-size: 12px;
+        padding: 4px 8px;
+        background-color: #222;
+        border-radius: 5px;
+    }
+
+    /* Contenu */
+    .contenu {
+        padding: 10px 15px;
+    }
+
+    h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .sous-titre {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /* Equipe */
+    .equipe {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .membre {
+        width: 90%;
+    }
+
+    /* Jeux */
+    .jeux {
+        flex-direction: column;
+    }
+
+    .jeu {
+        width: 100%;
+    }
+
+    /* Réseaux */
+    .reseaux {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .reseaux a {
+        width: 90%;
+        text-align: center;
+    }
+
+    /* Bouton retour en haut */
+    #btnHaut {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    /* Galerie */
+    .galerie-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carte {
+        width: 90%;
+        border-right: none;
+        border-bottom: 1px solid #444;
+    }
+
+    .carte img {
+        width: 100%;
+        height: 250px;
+    }
+}
