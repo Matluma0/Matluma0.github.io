@@ -537,3 +537,8 @@ nav a {
     margin: 0 20px;
     text-decoration: none;
 }
+
+nav img {
+    height: 40px;
+    background: transparent;
+    mix-blend-mode: screen;
