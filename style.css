@@ -94,7 +94,7 @@ h1 {
     font-size: 42px;
 }
 a[href^="mailto"] {
-    color: white;
+    color: rgb(255, 0, 0);
     text-decoration: none;
 }
 
