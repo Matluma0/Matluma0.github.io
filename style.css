@@ -94,7 +94,7 @@ h1 {
     font-size: 42px;
 }
 a[href^="mailto"] {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -533,7 +533,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 0 20px;
     text-decoration: none;
 }
