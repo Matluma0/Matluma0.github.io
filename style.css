@@ -684,3 +684,6 @@ nav a {
         padding: 25px 15px;
     }
 }
+html {
+    scroll-padding-top: 70px;
+}
