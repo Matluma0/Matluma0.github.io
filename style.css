@@ -706,6 +706,6 @@ html {
 /* Sur téléphone : police plus grande */
 @media (max-width: 768px) {
     p {
-        font-size: 18px;  /* Plus grand que 16px */
+        font-size: 50px;  /* Plus grand que 16px */
     }
 }
