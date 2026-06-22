@@ -687,3 +687,18 @@ nav a {
 html {
     scroll-padding-top: 70px;
 }
+
+/* Téléphones (moins de 768px) */
+@media (max-width: 768px) {
+    /* Ton CSS ici */
+}
+
+/* Tablettes (768px à 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Ton CSS ici */
+}
+
+/* Très grands écrans (plus de 1200px) */
+@media (min-width: 1200px) {
+    /* Ton CSS ici */
+}
