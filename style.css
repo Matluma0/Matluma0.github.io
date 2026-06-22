@@ -688,24 +688,8 @@ html {
     scroll-padding-top: 70px;
 }
 
-/* Mobile d'abord (moins de 768px) */
-@media (max-width: 768px) {
-    nav { font-size: 12px; }
-}
-
-/* Tablette (768px à 1024px) */
-@media (min-width: 768px) and (max-width: 1024px) {
-    nav { font-size: 14px; }
-}
-
-/* PC (plus de 1024px) */
 @media (min-width: 1024px) {
-    nav { font-size: 16px; }
-}
-
-/* Sur téléphone : police plus grande */
-@media (max-width: 768px) {
-    p {
-        font-size: 50px;  /* Plus grand que 16px */
+    nav {
+        font-size: 16px;
     }
 }
