@@ -693,3 +693,20 @@ html {
         font-size: 16px;
     }
 }
+
+/* Titre normal (pour galerie et services) */
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* UNIQUEMENT pour le titre d'accueil */
+h1.hero-title {
+    background-image: url('image/Galaxie.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+}
