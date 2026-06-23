@@ -424,6 +424,7 @@ nav {
     max-width: 900px;
     margin: 100px auto 60px;
     padding: 40px;
+    text-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
 }
 
 .services-container h1 {
@@ -432,10 +433,21 @@ nav {
     color: white;
     letter-spacing: 6px;
     margin-bottom: 60px;
-    border-bottom: 3px solid red;
-    display: inline-block;
-    padding-bottom: 10px;
-    width: 100%;
+    display: block;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+/* Le trait sous le titre */
+.services-container h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 51%;  /* Largeur du trait */
+    height: 3px;
+    background-color: red;
 }
 
 .service-card {
